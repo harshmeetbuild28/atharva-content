@@ -1,0 +1,341 @@
+{
+  "updated": "2026-09-25",
+  "_readme": [
+    "Atharva content overrides. The app fetches this on launch and patches its built-in content.",
+    "To fix a track: replace the entry with {\"id\": \"a001\", \"youtubeId\": \"NEW_ID\"} and remove \"hidden\".",
+    "To hide a track: {\"id\": \"a001\", \"hidden\": true}.",
+    "Fields you may set: youtubeId, title, artist, duration, thumbnail, deity, language.",
+    "Anything starting with _ is a comment and is ignored by the app.",
+    "Tracks not listed here keep whatever shipped in the app."
+  ],
+  "overrides": [
+    {
+      "id": "a001",
+      "_title": "Jai Jagdish Hare",
+      "youtubeId": "3ucCEjXS9n8",
+      "_channel": "T-Series Bhakti Sagar",
+      "_note": "replaced 2026-09-24 (was aMK8FF3JKb8, dead)"
+    },
+    {
+      "id": "a002",
+      "_title": "Om Jai Shiv Omkara",
+      "youtubeId": "BhwOproElxU",
+      "_channel": "T-Series Bhakti Sagar",
+      "_note": "replaced 2026-09-24 (was 4Y4M3Eo8Yug, dead)"
+    },
+    {
+      "id": "a003",
+      "_title": "Sukh Karta Dukh Harta",
+      "youtubeId": "q72FRIUFcvM",
+      "_channel": "T-Series Bhakti Marathi",
+      "_note": "replaced 2026-09-24 (was Zy-3xMR2mPM, dead)"
+    },
+    {
+      "id": "a004",
+      "_title": "Aarti Kunj Bihari Ki",
+      "youtubeId": "EMO1AT1UQf0",
+      "_channel": "T-Series Bhakti Sagar",
+      "_note": "replaced 2026-09-24 (was 9LxR0u-gv0A, dead)"
+    },
+    {
+      "id": "a005",
+      "_title": "Hanuman Aarti",
+      "youtubeId": "r7GJ8GoGSD8",
+      "_channel": "T-Series Bhakti Sagar",
+      "_note": "replaced 2026-09-24 (was pBn4HVSGskg, dead)"
+    },
+    {
+      "id": "a006",
+      "_title": "Ambe Tu Hai Jagdambe Kali",
+      "youtubeId": "dVTUUtOHUCA",
+      "_channel": "T-Series Bhakti Sagar",
+      "_note": "replaced 2026-09-24 (was D4o2dKlPdYI, dead)"
+    },
+    {
+      "id": "a007",
+      "_title": "Om Jai Lakshmi Mata",
+      "youtubeId": "0J1aNK16sFM",
+      "_channel": "Tips Bhakti Prem",
+      "_note": "replaced 2026-09-24 (was h8x1F1FZJVU, dead)"
+    },
+    {
+      "id": "a008",
+      "_title": "Jai Saraswati Mata",
+      "youtubeId": "OXXnM3T83t4",
+      "_channel": "Shemaroo Bhakti",
+      "_note": "replaced 2026-09-24 (was M0r2_RqRfMc, dead)"
+    },
+    {
+      "id": "a009",
+      "_title": "Aarti Shri Ramayan Ji Ki",
+      "youtubeId": "NYwYuo2MxLs",
+      "_channel": "Shemaroo Bhakti",
+      "_note": "replaced 2026-09-24 (was jZ5Z2vPVOUw, dead)"
+    },
+    {
+      "id": "a010",
+      "_title": "Sai Baba Aarti",
+      "youtubeId": "0eYfxSyfssk",
+      "_channel": "T-Series Bhakti Sagar",
+      "_note": "replaced 2026-09-24 (was 0vMDvMYYZ7Q, dead)"
+    },
+    {
+      "id": "a011",
+      "_title": "Jai Adya Shakti (Mata Aarti)",
+      "youtubeId": "55ZEyVOLMyQ",
+      "_channel": "Soor Mandir (Gujarati devotional label)",
+      "_note": "picked 2026-09-25 from candidates"
+    },
+    {
+      "id": "a012",
+      "_title": "Khatu Shyam Aarti",
+      "youtubeId": "PVZNLzdbXzI",
+      "_channel": "JMD Bhakti Sagar",
+      "_note": "replaced 2026-09-24 (was gM39TeqIkjk, dead)"
+    },
+    {
+      "id": "b002",
+      "_title": "Ganpati Bappa Morya",
+      "hidden": true,
+      "_note": "rejected auto-pick: Bollywood film song (Judwaa 2), not the devotional bhajan. Find T-Series Bhakti Sagar version or record own."
+    },
+    {
+      "id": "b006",
+      "_title": "Hare Krishna Hare Rama",
+      "youtubeId": "d5kn5zj0rtw",
+      "_channel": "Priya Supriya - Topic",
+      "_note": "replaced 2026-09-24 (was MNzH-emA3Sk, risky)"
+    },
+    {
+      "id": "b008",
+      "_title": "Radha Krishna Bol",
+      "youtubeId": "559ErOSubCo",
+      "_channel": "Swarup Damodar Prabhu - Topic",
+      "_note": "replaced 2026-09-24 (was 9zVL_cujvL8, dead)"
+    },
+    {
+      "id": "b011",
+      "_title": "Shri Ram Jai Ram Jai Jai Ram",
+      "youtubeId": "B241lEeK_as",
+      "_channel": "T-Series Bhakti Sagar",
+      "_note": "replaced 2026-09-24 (was vpprsNLewPQ, risky)"
+    },
+    {
+      "id": "b012",
+      "_title": "Ramchandra Keh Gaye Siya Se",
+      "youtubeId": "kD6N_zrulb0",
+      "_channel": "Shemaroo Bhakti",
+      "_note": "replaced 2026-09-24 (was fh9uC4eFPOc, risky)"
+    },
+    {
+      "id": "b013",
+      "_title": "Jai Mata Di",
+      "youtubeId": "ANyQiYlEkmk",
+      "_channel": "Shemaroo Filmi Gaane",
+      "_note": "replaced 2026-09-24 (was mmCkyU3bc0A, risky)"
+    },
+    {
+      "id": "c002",
+      "_title": "Ganesh Chalisa",
+      "youtubeId": "WyHFSjN0miU",
+      "_channel": "T-Series Bhakti Sagar",
+      "_note": "replaced 2026-09-24 (was PnYJyYOtNhU, dead)"
+    },
+    {
+      "id": "c003",
+      "_title": "Shiv Chalisa",
+      "youtubeId": "05g9Ua_M1xA",
+      "_channel": "T-Series Bhakti Sagar",
+      "_note": "replaced 2026-09-24 (was gN8N7lWqOuM, dead)"
+    },
+    {
+      "id": "c004",
+      "_title": "Durga Chalisa",
+      "youtubeId": "AXvmt88JLWg",
+      "_channel": "T-Series Bhakti Sagar",
+      "_note": "replaced 2026-09-24 (was tmP4M6Xg9p4, dead)"
+    },
+    {
+      "id": "c005",
+      "_title": "Krishna Chalisa",
+      "youtubeId": "wYCuWoA5vIA",
+      "_channel": "Shemaroo Bhakti",
+      "_note": "replaced 2026-09-24 (was 6BZGQ-2yCIs, dead)"
+    },
+    {
+      "id": "c006",
+      "_title": "Ram Chalisa",
+      "youtubeId": "I3Ze7RasX6A",
+      "_channel": "T-Series Bhakti Sagar",
+      "_note": "replaced 2026-09-24 (was 0Y_Tv2vGjpI, dead)"
+    },
+    {
+      "id": "c007",
+      "_title": "Saraswati Chalisa",
+      "youtubeId": "AETjP9K4u3M",
+      "_channel": "Shemaroo Bhakti",
+      "_note": "replaced 2026-09-24 (was O5SnE0F7gIo, dead)"
+    },
+    {
+      "id": "c008",
+      "_title": "Lakshmi Chalisa",
+      "youtubeId": "otWnO-2pwuM",
+      "_channel": "T-Series Bhakti Sagar",
+      "_note": "replaced 2026-09-24 (was D-_YK29SfGY, dead)"
+    },
+    {
+      "id": "c009",
+      "_title": "Sai Chalisa",
+      "youtubeId": "MsKg4Q0nVZA",
+      "_channel": "T-Series Bhakti Sagar",
+      "_note": "replaced 2026-09-24 (was wxkgUzHB2Mw, dead)"
+    },
+    {
+      "id": "c010",
+      "_title": "Vishnu Chalisa",
+      "youtubeId": "LdFA31_4izU",
+      "_channel": "T-Series Bhakti Sagar",
+      "_note": "replaced 2026-09-24 (was fU-r7vpa2GU, dead)"
+    },
+    {
+      "id": "c011",
+      "_title": "Khatu Shyam Chalisa",
+      "youtubeId": "4QTbMBqp5B8",
+      "_channel": "Shemaroo Bhakti",
+      "_note": "replaced 2026-09-24 (was wjr0AwLVLGY, dead)"
+    },
+    {
+      "id": "c012",
+      "_title": "Surya Chalisa",
+      "youtubeId": "L8gGSPzxXQU",
+      "_channel": "T-Series Bhakti Sagar",
+      "_note": "replaced 2026-09-24 (was 9w7vZpc4mvs, dead)"
+    },
+    {
+      "id": "m004",
+      "_title": "Hare Krishna Mahamantra",
+      "youtubeId": "FT8RJdyyzuI",
+      "_channel": "Shree Dhun - Topic",
+      "_note": "replaced 2026-09-24 (was MNzH-emA3Sk, risky)"
+    },
+    {
+      "id": "m005",
+      "_title": "Ganesh Mantra",
+      "youtubeId": "H9tWRGxuKTw",
+      "_channel": "Times Music Spiritual",
+      "_note": "replaced 2026-09-24 (was iQDTLi-PDdQ, dead)"
+    },
+    {
+      "id": "m006",
+      "_title": "Hanuman Mantra",
+      "youtubeId": "VBM9c292C7A",
+      "_channel": "Rajshri Soul",
+      "_note": "replaced 2026-09-24 (was 8YaWE71PhZw, dead)"
+    },
+    {
+      "id": "m007",
+      "_title": "Durga Mantra",
+      "youtubeId": "mmas-XkuEr0",
+      "_channel": "Shemaroo Bhakti",
+      "_note": "replaced 2026-09-24 (was EtDh2Az5Z6E, dead)"
+    },
+    {
+      "id": "m008",
+      "_title": "Lakshmi Mantra",
+      "youtubeId": "ThznwYxJ8po",
+      "_channel": "Rajshri Soul",
+      "_note": "replaced 2026-09-24 (was PsmfjKrA8B4, dead)"
+    },
+    {
+      "id": "m009",
+      "_title": "Saraswati Mantra",
+      "hidden": true,
+      "_candidates": [
+        "4koR8WKxHmc | Mahakatha - Meditation Mantras | ANCIENT SARASWATI MANTRA FOR A SHARP MIND AND FOCUS",
+        "5CM6Q-htKqA | My Guru | Saraswati Mantra 108 Times | Namaste Sharde Devi | Mantra For Students | सरस्वती मंत्र | My Guru",
+        "pDojlA3SCFs | Nova Spiritual India | सरस्वती मंत्र Saraswati Mantra with Lyrics | Om Saraswati Namo Namah | Bhakti Song | Saraswati Puja"
+      ],
+      "_note": "no official version on YouTube - public-domain text, good ElevenLabs candidate"
+    },
+    {
+      "id": "m010",
+      "_title": "Navkar Mantra",
+      "youtubeId": "dstVn99wMA4",
+      "_channel": "CA Anjali Jain - Topic",
+      "_note": "replaced 2026-09-24 (was WtHNMAMFYDE, dead)"
+    },
+    {
+      "id": "m011",
+      "_title": "Shanti Mantra",
+      "hidden": true,
+      "_note": "rejected auto-pick: Navagraha Shanti mantra, not the Shanti Mantra (Om Sahana Vavatu). Record own in ElevenLabs."
+    },
+    {
+      "id": "m012",
+      "_title": "Asato Ma Sadgamaya",
+      "youtubeId": "Vwyo62x9yC4",
+      "_channel": "Rajshri Soul",
+      "_note": "replaced 2026-09-24 (was 88_DrLY8GDg, dead)"
+    },
+    {
+      "id": "s101",
+      "_title": "Sunderkand (Full Path)",
+      "hidden": true,
+      "_candidates": [
+        "K2hs_Hb-UWA | Sunderkand | 45 मिनट  में गाया गया सम्पूर्ण सुंदरकांड l SunderKand path l Sunderkand With Lyrics",
+        "NUdGqGO9Bzg | Divyanshu Sahu | Sunderkand Path by Ashwin Kumar Pathak [HQ] (Fast pace)",
+        "QjSpUgnEPLU | Rajgopal Kabra | Full Sunderkand with Hindi Lyrics by Panditji Shri Ashwin Kumar Pathak"
+      ],
+      "_note": "no official version on YouTube - public-domain text, good ElevenLabs candidate"
+    },
+    {
+      "id": "s102",
+      "_title": "Bhagavad Gita — Chapter 1 (Arjun Vishaad Yog)",
+      "hidden": true,
+      "_candidates": [
+        "Cg29eMe3sck | Shri Gaurdas Ji Maharaj | श्रीमद भगवद गीता | Shrimad Bhagavad Gita | Chapter 1 - Arjun Vishad Yog with Narration",
+        "tf56phIdqLk | Brijit Dighe | Bhagavad Gita | 1st Chapter Arjun Vishad Yog | भगवद् गीता । अर्जुन विषाद योग",
+        "cJ7yz3tFK7w | Chakravarti Das | Bhagavad Gita | Chapter 1 | Arjun Vishada Yoga | Chakravarti Das"
+      ],
+      "_note": "no official version on YouTube - public-domain text, good ElevenLabs candidate"
+    },
+    {
+      "id": "s103",
+      "_title": "Bhagavad Gita Chapter 2",
+      "youtubeId": "WuZqx82rsos",
+      "_channel": "Giri Bhakti (T S Ranganathan)",
+      "_note": "picked 2026-09-25 from candidates"
+    },
+    {
+      "id": "s104",
+      "_title": "Vishnu Sahasranamam",
+      "youtubeId": "ATflA6WOy0I",
+      "_channel": "M.S. Subbulakshmi - Topic",
+      "_note": "replaced 2026-09-24 (was pLF3MZYFOHQ, dead)"
+    },
+    {
+      "id": "s105",
+      "_title": "Lalita Sahasranamam",
+      "youtubeId": "DtSBLpQStT4",
+      "_channel": "Rajshri Soul",
+      "_note": "replaced 2026-09-24 (was lMoOzd5pR-c, dead)"
+    },
+    {
+      "id": "s107",
+      "_title": "Aditya Hridaya Stotram",
+      "youtubeId": "afdT_tkHWOE",
+      "_channel": "Rajshri Soul",
+      "_note": "replaced 2026-09-24 (was CD7g2cbT4FQ, dead)"
+    },
+    {
+      "id": "s108",
+      "_title": "Ramcharitmanas — Bal Kand (Excerpt)",
+      "hidden": true,
+      "_candidates": [
+        "0BqrVIt-4rs | Spiritual Activity | Ram Charitra Manas Bal Kand -1 || श्रीरामचरितमानस - बालकाण्ड पहला मासपरायण || Prem Prakash Dubey",
+        "7v2rjLf8vZ4 | Ishwar Bhakti Upasana | #ramayan #रामायण #virel रामायण बालकाण्ड के श्लोक पढ़ना सीखें आसानी से |  Ramayan Bal Kand Ke Shlok |"
+      ],
+      "_note": "no official version on YouTube - public-domain text, good ElevenLabs candidate"
+    }
+  ]
+}
